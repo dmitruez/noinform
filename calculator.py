@@ -30,7 +30,13 @@ class Calculator:
 	
 	def printify(self):
 		print(self.last_res)
-		
+	
+	def bad_work(self):
+		print(
+			"""Ты сегодня плохо поработал
+					Мы не дадим тебе новые награды в магазине
+					Приходи завтра и исправляйся поскорей"""
+			)
 
 calc = Calculator()
 
