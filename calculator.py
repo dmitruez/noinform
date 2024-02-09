@@ -26,9 +26,8 @@ class Calculator:
 			return n1 / n2
 		except:
 			traceback.print_exc()
-			
 	
-	def printify(self):
+	def print_last_res(self):
 		print(self.last_res)
 	
 	def bad_work(self):
@@ -37,9 +36,14 @@ class Calculator:
 					Мы не дадим тебе новые награды в магазине
 					Приходи завтра и исправляйся поскорей"""
 			)
-		
-		
-
+	
+	def gut_work(self):
+		print(
+			"""ТЫ хорошо сегодня поработал
+					Возращайся в следующий раз
+					И не забудь забрать награды из магазина!"""
+			)
+	
 calc = Calculator()
 
 
